@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 
 public class Main{
@@ -8,12 +9,10 @@ public class Main{
         Parking parking = new Parking();
 
         start(parking);
-
-        
-        
     }
 
     public static void start(Parking parking){
+
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         String nrInmatriculare;
@@ -21,7 +20,7 @@ public class Main{
         printMenu();
 
         while(!quit){
-
+            
             int action = scanner.nextInt();
             scanner.nextLine();
 
